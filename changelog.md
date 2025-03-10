@@ -2,6 +2,49 @@
 
 <!-- towncrier release notes start -->
 
+## [3.4] - 2025-02-02
+
+### Changes
+
+- pyproject.toml upgraded for poetry 2.0
+- in document details view, values of document type dropdown are sorted alphabetically and autocomplete
+- in "new document type" modal dialog, custom field dropdown is sorted alphabetically
+- Fixes blocking bug in "view by document type" which resulted values displayed in wrong columns
+- Fixes "No Visual Feedback on Wrong Credentials" [Issue#579](https://github.com/papermerge/papermerge-core/issues/579)
+- Fix following problem: it is not possible to delete a tag if it was attached to a node
+- Fix following problem: it is not possible to delete node if it has attached tag
+
+### Adds
+
+- Column sorting and filtering in document type list view
+- Column sorting and filtering in custom field list view
+- Column sorting and filtering in tags list view
+- Minor UX improvements: notification messages on custom field and document type CRUD
+  operations
+- For Macintosh users: when in dual panel mode with one panel command + document type,
+  user can open docs in other panel by pressing Alt key while clicking on the document
+  title (in commander)
+
+## [3.3.1] - 2025-01-19
+
+### Changes
+
+- Fixes [Web UI popup mislocated in v3.3](https://github.com/ciur/papermerge/issues/643)
+    also problem is mentioned here https://github.com/papermerge/papermerge-core/issues/574
+- Fixes problem that was not possible to update password of a user due to a bug
+- Fixes problem that was not possible to update group permissions due to a bug
+
+## [3.3] - 2024-12-21
+
+### Changes
+
+- logging.yaml location changed from /core_app/logging.yaml to /etc/papermerge/logging.yaml
+
+### Adds
+
+- Document Type
+- Custom Fields per document type
+- List all documents along with custom fields (+ order by custom fields)
 
 ## [3.2] - 2024-04-07
 

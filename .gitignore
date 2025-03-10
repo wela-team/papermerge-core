@@ -35,3 +35,7 @@ index_db/
 index_db_test/
 custom_logging.yml
 simplest.yml
+ui/public/runtime/config.js
+.ruff_cache/
+.pytest_cache/
+.enwardrc
